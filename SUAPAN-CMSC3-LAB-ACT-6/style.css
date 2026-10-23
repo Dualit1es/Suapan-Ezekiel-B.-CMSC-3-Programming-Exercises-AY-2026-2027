@@ -1,0 +1,62 @@
+/* Element selector #1 */
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+ 
+/* Element selector #2 */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+ 
+/* ID selector */
+#profile-header {
+  text-align: center;
+  background-color: #003366;
+  padding: 20px;
+  border-radius: 10px;
+}
+ 
+/* Group selector (headings share a color) */
+h1, h2 {
+  color: #003366;
+}
+ 
+/* Header is dark navy, so its heading must be light to stay readable */
+#profile-header h1 {
+  color: #ffffff;
+  margin: 0;
+}
+ 
+/* Class selector */
+.card {
+  background-color: #fff8dc;
+  border: 2px solid #003366;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+ 
+/* Descendant selector */
+.card p {
+  color: #333333;
+}
+ 
+/* Pseudo-class selectors */
+a {
+  color: #003366;
+  text-decoration: underline;
+}
+ 
+a:hover {
+  color: #e07a1f;
+  text-decoration: none;
+}
+ 
+li:hover {
+  color: #e07a1f;
+}
